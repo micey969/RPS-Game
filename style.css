@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #ccf2ff;
+	font-size: 18px;
+}
+
+#wrapper{
+	margin: 0 auto;
+	padding: 5px;
+	height: auto;
+}
+
+header{
+	background-color: #33ccff;
+	height: 60px;
+	border: 1px solid #00ace6;
+	text-align: center;
+	font: serif;
+	top: 10%;
+}
+
+.container{
+	margin: 20px auto;
+	padding: 20px 15px 0 15px;
+}
+
+.container .content {
+	height: auto;
+	padding: 10px;
+}
+
+.container .content div{
+	display: inline-block;
+	padding: 20px;
+}
+
+.container .content #first{
+	margin-left: 40px;
+}
+
+.container .content div img{
+	width: 350px;
+	height: 250px;
+	cursor: pointer;
+}
